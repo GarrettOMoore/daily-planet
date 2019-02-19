@@ -1,0 +1,11 @@
+<% include ../partials/header.ejs %>
+
+<form method="POST" action="/articles">
+    <input class="new-art-form" type="text" name="author" placeholder="YOUR NAME HERE"> <br>
+    <input class="new-art-form" type="text" name="title" placeholder="YOUR TITLE HERE"> <br>
+    <textarea class="new-art-text" name="body" cols="40" rows="5" placeholder="YOUR WONDERFUL ARTICLE HERE"></textarea><br>
+    <input type="submit">
+</form>
+
+
+<% include ../partials/footer.ejs %>

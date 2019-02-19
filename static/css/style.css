@@ -1,0 +1,126 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image:url('/imgs/white-waves.png');
+}
+
+h1 {
+    text-align: center;
+    font-size: 86px;
+    letter-spacing: 8px;
+    font-family: 'Black Ops One';
+
+}
+
+h3 {
+    text-align: center;
+    font-size: 44px;
+    letter-spacing: 8px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+h5 {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+}
+.article-box {
+    background-color: goldenrod;
+    border: 4px solid black;
+    margin: 12px;
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Cinzel Decorative';
+}
+
+nav {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+a {
+    padding: 40px;
+    text-decoration: none;
+    color: maroon;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+form {
+    text-align: center;
+    margin: 30px;
+    background-color: goldenrod;
+    border-radius: 10%;
+}
+
+.new-art-form {
+    margin-top: 20px;
+    width: 25%;
+    font-size: 30px;
+}
+
+.new-art-text {
+    margin-top: 20px;
+    width: 50%;
+    height: 300px;
+    font-size: 20px;
+    font-family: 'Cinzel Decorative'
+}
+
+button {
+    margin-left: 10px;
+}
+
+#home-img {
+    background-image: url('/imgs/Global-Warming-2.gif');
+}
+
+#home-img {
+    margin-top: 50px;
+    border: 2px solid transparent;
+    border-radius: 100%;
+    margin-left: 650px;
+    width: 21%;
+    height: 21%;
+}
+
+img {
+    margin-left: 550px;
+    width: 30%;
+    height: 20%;
+}
+div {
+    box-shadow: 2px 4px;
+}
+
+#gallery-box {
+    background-image: url('/imgs/Screen Shot 2019-02-04 at 9.18.00 AM.png');
+    border: 2px solid black;
+    width: 500px;
+    margin-left: 575px;
+    height: 500px;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 1px 1px;
+    overflow: hidden;
+    border-radius: 5%;
+}
+
+#previous {
+    margin-left: 650px;
+    margin-bottom: 100px;
+    width: 10%; 
+    height: 50px;
+}
+
+#next {
+    width: 10%; 
+    height: 50px;
+}

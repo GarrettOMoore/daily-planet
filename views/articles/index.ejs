@@ -1,0 +1,19 @@
+<% include ../partials/header.ejs %>
+
+<h1>Articles</h1>
+
+<% myArticles.forEach(function(article, id){ %>
+    <div class="article-box"> 
+        <h3> <%= article.title %> </h3>
+        <h5> Written By: <%= article.author %> </h5>
+        <p> "<%= article.body %>"</p>
+        <form method="POST" action="/articles/<%= id %>/?_method=DELETE">
+            <button><a href="/articles/<%= id %>/edit">EDIT</a></button>
+            <input type="submit" value="DELETE">
+        </form>
+    </div>
+<% });%>
+
+
+
+<% include ../partials/footer.ejs %>
